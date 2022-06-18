@@ -40,7 +40,7 @@ button_positive.onclick = () =>{
     quantity.textContent= `${h}`;
 }
 button_positive_2.onclick = () =>{
-    z--;
+    z++;
     total_price.textContent = `$ ${(h*55)+19+(z*75)}`;
     quantity_2.textContent= `${z}`;
 }
