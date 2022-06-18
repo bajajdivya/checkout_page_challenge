@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <div class="content_entire">
+        <div class="right">
+            <div class="one_item">
+                <img class="image_of_items" src="goat-leather-bag-vintage-bag-1523036761-2624798.jpeg" alt="" />
+                <div class="pricing">
+
+                    <h3 class="Vintage">Vintage Backpack</h3>
+                    <h3 class="new_price">$54.99</h3>
+                    <h4 class="linethrough">$94.99</h4>
+                    <div class="quantity_selector">
+                        <button type="button" id="button_negative" class="negative">
+                            -
+                        </button>
+                        <h3 id="quantity" class="quantity"></h3>
+
+                        <button type="button" class="positive" id="button_positive">
+                            +
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="one_item">
+                <img class="image_of_items" src="levi shoes.jpg" alt="" />
+                <div class="pricing">
+
+                    <h3 class="Vintage">levi Shoes</h3>
+                    <h3 class="new_price">$74.99</h3>
+                    <h4 class="linethrough">$124.99</h4>
+                    <div class="quantity_selector">
+                        <button type="button" id="button_negative_2" class="negative">
+                            -
+                        </button>
+                        <h3 id="quantity_2" class="quantity"></h3>
+
+                        <button type="button" class="positive" id="button_positive_2">
+                            +
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <hr style="color: black; height: 0.2vh;" class="horizontal_rule">
+            <div class="shipping">
+                <h3>Shipping</h3>
+
+
+                <h3 class="price_of_shipping">$19</h3>
+            </div>
+            <hr style="color: black; height: 0.2vh;" class="horizontal_rule">
+            <div class="total">
+                <h3>Total</h3>
+
+                <h3 class="total_price" id ="total_price">$19</h3>
+            </div>
+        </div>
+        <div class="left">
+            <h2>Contact Information</h2>
+            <form>
+                E-mail:
+
+                <input type="email" style="border-radius: 1em;" class="input_s">
+                <br>
+                <br>
+                Phone:
+                <input type="text" maxlength="10" minlength="10" style="border-radius: 1em;" required class="input_s" id="phone_number">
+                <br>
+                <br>
+
+            </form>
+            <h2>Shipping address</h2>
+            <form>
+                Full Name:
+                <input type="text" style="border-radius: 1em;" class="input_s" required>
+                <br>
+                <br>
+                Address:
+                <input type="text" style="border-radius: 1em;" required class="input_s">
+                <br>
+                <br>
+                City:
+                <input type="text" style="border-radius: 1em;" required class="input_s">
+                <br>
+                <br>
+                country:
+                <input type="text" style="border-radius: 1em;" required class="input_s">
+                <br>
+                <br>
+                Postal Code:
+                <input type="number" style="border-radius: 1em;" maxlength="6" minlength="6" required class="input_s">
+                <br><br>
+                <input type="checkbox" required >Save this information for next time
+                <br>
+
+            </form>
+            <button id="button_B"
+                style="background-color:orange ; color: white; padding: 1vh 3vw; border-radius: 0.5em;">Continue</button>
+
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+
+</html>
