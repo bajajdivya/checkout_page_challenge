@@ -1,4 +1,5 @@
 let buttonB = document.querySelector('#button_B');
+let phone_number = document.querySelector("#phone_number");
 buttonB.onclick = () =>{
     if (phone_number.value.length>=0&&phone_number.value.length<10)
     {
@@ -44,4 +45,4 @@ button_positive_2.onclick = () =>{
     total_price.textContent = `$ ${(h*55)+19+(z*75)}`;
     quantity_2.textContent= `${z}`;
 }
-let phone_number = document.querySelector("#phone_number");
+
